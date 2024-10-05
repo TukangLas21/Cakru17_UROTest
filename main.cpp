@@ -1,4 +1,4 @@
-#include "robot.hpp"
+#include "../src/robot.hpp"
 
 void menu() {
     std::cout << "Welcome to Battle of Robots!\n";
