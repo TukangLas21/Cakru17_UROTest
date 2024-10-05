@@ -4,11 +4,16 @@
 #include <iostream>
 #include "robot.hpp"
 
-class Battle {
+float randomNumber();
 
-    void start_fight(Robot robotOne, Robot robotTwo);
+class Battle {
+    private:
+        double damageDealt;
+        double damageTaken;
+
+    public:
+        void start_fight(Robot robotOne, Robot robotTwo);
 
 };
-
 
 #endif 
