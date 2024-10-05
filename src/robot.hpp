@@ -13,5 +13,9 @@ class Robot {
         int robotHP;
 };
 
+#define name robotName
+#define attack robotATK
+#define defense robotDEF
+#define health robotHP
 
 #endif
